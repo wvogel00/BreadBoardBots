@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title> BreadBoardBots </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="breadboardbotsのサイトです">
+<meta name="keywords" content="breadboard,ブレッドボード,BBB,breadboardbots,clubhouse">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/fixmenu_pagetop.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(function(){
+$('a[href^="#"]').click(function() {
+var speed = 800;
+var href= $(this).attr("href");
+var target = $(href == "#" || href == "" ? 'html' : href);
+var position = target.offset().top;
+$('body,html').animate({scrollTop:position}, speed, 'swing');
+return false;
+});
+});
+</script>
+</head>
+
+<body>
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<nav id="menubar">
+<ul>
+<li><a href="#new">What's New</a></li>
+<li><a href="#company">What's BBB</a></li>
+<li><a href="#product">Product</a></li>
+<li><a href="#member">Member</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<div id="container">
+
+<div id="contents">
+
+<section id="new">
+
+<h2>What's New</h2>
+<dl>
+<dt>2021/03/17</dt>
+<dd>ホームページ開設！</dd>
+</dl>
+
+</section>
+<!--/#new-->
+
+<section id="company">
+
+<h2>What's BBB</h2>
+
+<h3>”BreadBoardって，ロボットにとって最高の環境じゃない？”</h3>
+<p>Clubhouseで，人間にとっては簡単なタスクでもロボットにとっては難しい，といった話になったある夜．
+ロボットにとって都合の良い環境があれば良いのならば，タスクはピンの抜き差しという単純なものでありながら二次元方向に正確に2.54mm間隔で穴が空いており，そしてそこからあらゆるプロトタイプが創造されてきたブレッドボードは，ロボットにとっては桃源郷とも云える最高のフィールドではないかと思い立つ．
+同席していたメカトロニクスの鬼才を味方につけ，ブレッドボードはロボットが歩き回る広野へとその本性を現そうとしていた...</p>
+
+<p>理想は，ロボットが二次元平面上を自由自在に動き回り，ジャンパ線や部品を指定した位置で抜き差ししてくれること．
+2021年，その第一歩としてBreadBoard上を一次元方向に走り抜けるレーサーを開発することとなった！</p>
+
+<section id="product">
+
+<h2>Product</h2>
+
+<div class="list">
+<img src="images/moc.jpg" alt="">
+<h4>まずはイメージモックアップ</h4>
+<p>少女週末旅行を参照されたし！</p>
+</div>
+
+<div class="list">
+<img src="images/logo.png" alt="">
+<h4>BBBプロジェクトで最初に完成したのはロゴ</h4>
+<p>形から入るのは様式美</p>
+</div>
+
+<div class="list">
+<img src="images/reuleaux.png" alt="">
+<h4>足の抜き差し</h4>
+<p>機構の設計が固まりつつあります</p>
+</div>
+
+
+</section>
+<!--/#Product-->
+
+<section id="member">
+
+<h2>Member</h2>
+
+<h3>主要メンバ</h3>
+<div class="list">
+<img src="images/torii.jpg" alt="">
+<h4>Wataru TORII</h4>
+<p>企画・エレクトロニクス担当．電気刺激と妄想を垂れ流すのが得意技</p>
+</div>
+
+<div class="list">
+<img src="images/meso.jpg" alt="">
+<h4>Shoma MIZUTANI</h4>
+<p>製造・メカトロニクス担当．チームOP-AMPの中の人．色々すごい</p>
+</div>
+
+<h3>アドバイザ</h3>
+<div class="list">
+<img src="images/guitar.png" alt="">
+<h4>Takaharu NAKAMURA</h4>
+<p>経験豊富なエンジニアであり写真家でありギタリスト</p>
+</div>
+
+<div class="list">
+<img src="images/handa.png" alt="">
+<h4>Kazuya TANIGAWA</h4>
+<p>ロボットやメカにめっぽう強い．タイから帰国できる日は来るのでしょうか．</p>
+</div>
+
+
+</section>
+<!--/#Product-->
+
+<section id="contact">
+
+<h2>Contact</h2>
+<p class="c">お問い合わせは以下までお願い致します。</p>
+<p class="c"><span class="big1">[twitter]@hxf_vogel, @meso103</span><br>
+<p class="c"><img src="images/sample1.png" alt="" width="300"></p>
+
+</section>
+<!--/#contact-->
+
+</div>
+<!--/#contents-->
+
+</div>
+<!--/#container-->
+
+<footer>
+<small>Copyright&copy; <a href="index.html">BreadBoardBots</a> All Rights Reserved.</small>
+</footer>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+</body>
+</html>
